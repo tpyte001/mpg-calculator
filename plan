@@ -1,0 +1,24 @@
+
+#create of program to calculate how much gas it will take to get from point A to point B
+#and how much it will cost.
+
+#define volume of cars gas tank
+#define amount of distance delta per trip
+#define the time delta per trip
+
+
+volumeTank = int(input("Enter the volume of your gas tank: "))
+
+finalD = #gps location coordiantes?
+initialD = #gps location coordinates?
+deltaD = finalD - initialD #what units would i have to use, miles? does it matter in programming?
+
+timeD = #track time with some sort of timer function?
+
+
+def gasMPG():
+    #calculate gas mpg
+
+def mpgTrip():
+    #calculate gas mpg/trip
+
