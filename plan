@@ -1,6 +1,6 @@
 
-#create of program to calculate how much gas it will take to get from point A to point B
-#and how much it will cost.
+#create program to calculate how much gas it will take to get from point A to point B
+#and how much it will cost per trip from A to B.
 
 #define volume of cars gas tank
 #define amount of distance delta per trip
@@ -17,7 +17,15 @@ timeD = #track time with some sort of timer function?
 
 
 def gasMPG():
-    #calculate gas mpg
+    calculate gas mpg
+    mpg = (distance traveled in) miles / gallons (of gas used to travel that distance)
+    distance traveled in miles = initial velocity of the time spent traveling plus half the acceleration of gravity by the square of the time spent in travel
+    gallons of gas used = initial volume of tank - final volume of tank     
+        
+    #start cars trip meter, maybe some way to access trip meter programatically
+    #manually enter odometer reading before and after trip
+    #manually time trip (or time trip with function of program)
+    #potentially calculate distance with gps coordiantes and trig
 
 def mpgTrip():
     #calculate gas mpg/trip
